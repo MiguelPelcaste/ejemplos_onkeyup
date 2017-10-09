@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+    <body>
+   <form>
+        <textarea id="text"></textarea><br/>
+        </form>
+        <div id="resultado"></div>
+        
+        <script>
+        window.onload = function(){
+            document.getElementById('text').onkeyup = function(){
+                var textarea = document.getElementById('text').value;
+                
+                document.getElementById('resultado').innerHTML = parseInt (textarea) * 2;
+            }
+        }
+        </script>
+    </body>
+    
+</html>

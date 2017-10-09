@@ -1,0 +1,19 @@
+<html>
+	<head>
+	<body>
+        <script lenguaje='javascript'>
+        var count=0;
+            function up(){
+                count ++;
+                document.forms[0].b.value=count;
+            }
+        </script>
+        <body>
+        <form>
+            Escriba su nombre:<input type="text" name="a" onkeyup="up()"/>
+            <br>
+            onkeyup count:<input type="text" name="b"/>
+            </form>
+        </body>
+	</body>
+</html>
